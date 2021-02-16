@@ -51,8 +51,8 @@ Este proyecto es el clon de una app de productividad llamada [Good time](https:/
 <details open>
   <summary>HTML, CSS y JS Básico</summary>
   
-  - [ ] Maquetar pantalla inicial
-  - [ ] Maquetar menu desplegable
+  - [X] Maquetar pantalla inicial
+  - [X] Maquetar menu desplegable
   - [ ] Maquetar sección de etiquetas
   - [ ] Maquetar sección de configuración
   - [ ] Contador de pomodoros
