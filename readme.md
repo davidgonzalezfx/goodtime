@@ -24,6 +24,28 @@ Este proyecto es el clon de una app de productividad llamada [Good time](https:/
 <br />
 <br/>
 
+<details open>
+  <summary>Temas frontend</summary>
+  
+  - [ ] HTML5 básico
+  - [ ] CSS3 básico
+  - [ ] Flexbox y grid CSS
+  - [ ] Responsive design
+  - [ ] Fuentes
+  - [ ] Javascript básico
+  - [ ] Manipular el DOM con vanilla JS
+  - [ ] BEM CSS
+  - [ ] HTML semántico
+  - [ ] Pseudo clases y pseudo elementos
+  - [ ] Preprocesadores de CSS
+  - [ ] Accesibilidad y Google lighthouse
+  - [ ] React.js (`create-react-app` vs `webpack`)
+  - [ ] React Hooks
+  - [ ] Redux
+  - [ ] React native
+
+</details>
+
 <strong>Roadmap</strong>
 
 <details open>
@@ -35,6 +57,11 @@ Este proyecto es el clon de una app de productividad llamada [Good time](https:/
   - [ ] Maquetar sección de configuración
   - [ ] Contador de pomodoros
   - [ ] Dar funcionalidad al timer
+  - [ ] Organizar en componentes
+  - [ ] Organizar CSS
+  - [ ] Preprocesadores CSS
+  - [ ] Accesibildad
+  - [ ] Temas (dark y light)
 
 </details>
 
@@ -43,6 +70,7 @@ Este proyecto es el clon de una app de productividad llamada [Good time](https:/
 
   - [ ] Migrar projecto a React
   - [ ] Componentes
+  - [ ] Multiples timers
   - [ ] Redux
   - [ ] Perisistencia de datos
 
