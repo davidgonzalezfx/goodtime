@@ -24,7 +24,7 @@ body {
   font-weight: 100;
 }
 
-.settings {
+.bar {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -36,10 +36,11 @@ body {
   padding: 5px 10px;
   box-sizing: border-box;
 }
-.menu {
+.bar__menu {
   height: 50%;
+  cursor: pointer;
 }
-.settings div {
+.bar div {
   width: 20%;
   display: flex;
   justify-content: flex-end;
@@ -58,4 +59,51 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
   text-align: center;
+}
+
+/* Dropdown menu */
+.menu {
+  display: none;
+  background-color: #151515;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+}
+.logo p { 
+  margin: 0;
+  font: 300 .4em 'Source Sans Pro', sans-serif;
+}
+
+.options {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.options > div {
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+  align-items: center;
+  margin: 22px 0;
+}
+.options > div > p {
+  margin: 0;
+  font: 300 .35em 'Source Sans Pro', sans-serif;
+}
+
+.options img {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
 }
