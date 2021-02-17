@@ -58,6 +58,7 @@ Este proyecto es el clon de una app de productividad llamada [Good time](https:/
   - [X] Contador de pomodoros
   - [X] Dar funcionalidad al timer
   - [ ] Configuraciones de usuario
+  - [X] Responsive
   - [ ] Organizar en componentes
   - [ ] Organizar CSS
   - [ ] Preprocesadores CSS
