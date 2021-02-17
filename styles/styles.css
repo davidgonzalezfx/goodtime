@@ -1,12 +1,10 @@
-html, body {
-  height: 100%;
-}
 body {
   background-color: #202020;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   margin: 0;
   font-family: 'Roboto Mono', monospace;
   font-size: 48px;
@@ -137,13 +135,18 @@ body {
 @media screen and (max-width: 1024px) {
   .container {
     width: 80vw;
-  }
-  .menu {
-    height: 30vh;
+    overflow: auto;
   }
   .logo img {
     width: 35px;
     height: 35px;
+  }
+  .blank {
+    height: auto;
+  }
+  .menu__content {
+    width: 100%;
+    height: max-content;
   }
   .options > div {
     margin: 12px 0;
@@ -164,6 +167,8 @@ body {
   .container {
     width: 100vw;
     height: 100vh;
+    border: none;
+    border-radius: 0;
     box-sizing: border-box;
   }
   .options > div {
