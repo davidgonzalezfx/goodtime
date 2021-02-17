@@ -1,4 +1,4 @@
-const container = document.getElementsByClassName('container__timer')[0]
+const timer = document.getElementsByClassName('container__timer')[0]
 const minutes = document.getElementById('minutes')
 const seconds = document.getElementById('seconds')
 const pomodoro = [minutes.innerHTML, seconds.innerHTML]
@@ -11,7 +11,7 @@ function reset () {
   seconds.innerHTML = pomodoro[1]
   minutes.innerHTML = pomodoro[0]
   state = 0
-  container.addEventListener('click', startTimer)
+  timer.addEventListener('click', startTimer)
 }
 
 function increaseCounter() {
@@ -50,4 +50,22 @@ function startTimer() {
   }
 }
 
-container.addEventListener('click', startTimer)
+timer.addEventListener('click', startTimer)
+
+const blank = document.getElementsByClassName('blank')[0]
+const menuButton = document.getElementById('menuIcon')
+const menu = document.getElementById('menu')
+
+function hideMenu () {
+  menu.classList.add('hide')
+  blank.removeEventListener('click', hideMenu)
+  menuButton.addEventListener('click', showMenu)
+}
+
+function showMenu () {
+  menu.classList.remove("hide")
+  menuButton.removeEventListener('click', showMenu)
+  blank.addEventListener('click', hideMenu)
+}
+
+menuButton.addEventListener('click', showMenu)

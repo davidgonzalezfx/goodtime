@@ -73,13 +73,26 @@ body {
 }
 
 /* Dropdown menu */
-.menu {
+.hide {
   display: none;
+}
+.blank {
+  height: 50%;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+.menu__content {
   background-color: #151515;
   border-radius: 10px;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: auto;
   height: 50%;
   padding: 10px;
   box-sizing: border-box;
