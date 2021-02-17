@@ -144,6 +144,9 @@ body {
   .blank {
     height: auto;
   }
+  .blank {
+    height: 100%;
+  }
   .menu__content {
     width: 100%;
     height: max-content;
